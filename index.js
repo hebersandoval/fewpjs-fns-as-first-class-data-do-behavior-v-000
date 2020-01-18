@@ -9,6 +9,7 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(timeString) {
+  
   if (timeString < 12) {
     return 'Good Morning';
   } else if (timeString > 12 & timeString < 5) {
@@ -17,4 +18,5 @@ function greet(timeString) {
     return 'Good Evening';
   }
 }
+
 /* Write your implementation of displayMessage() */
